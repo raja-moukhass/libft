@@ -14,13 +14,24 @@ Libft  The aim of this project is to code a C library regrouping usual functions
 
 ## Functions
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+those are the functions that's i made in my libft 
 
-| Plugin | README |
+| function | My implementation |
 | ------ | ------ |
-| Dropbox | https://github.com/raja-moukhass/libft/blob/master/ft_atoi.c |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| atoi | [ft_atoi.c](https://github.com/raja-moukhass/libft/blob/master/ft_atoi.c) |
+
+
+## Getting Started
+
+### Compiling
+
+Run the following commands:
+
+* To compile
+	- `make`
+* To remove objects:
+	- `make clean`
+* To remove objects and binary file (program):
+	- `make fclean`
+* To re-compile:
+	- `make re`
